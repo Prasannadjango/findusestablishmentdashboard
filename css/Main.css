@@ -16,7 +16,14 @@
     background-position: center;
     background-color: #E4E3E3;
 }
-
+ .count{
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+}
 #imageUpload,#imageUpload1
 {
     display: none;
